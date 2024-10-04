@@ -1,0 +1,130 @@
+@font-face {
+  font-family: poppins-regular;
+  src: url("../../public/assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url("../../public/assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: poppins-xl-bold;
+  src: url("../../public/assets/fonts/Poppins/Poppins-ExtraBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: radioland;
+  src: url("../../public/assets/fonts/radioland/radioland.TTF");
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: poppins-regular, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color-text: #484848;
+  --color-text-light: #48484810;
+  --white: #fff;
+  --orange-text: #F7C59F;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+@media screen and (min-width: 1921px) {
+  body {
+    padding: 0rem 15rem;
+  }
+}
+
+.min-vh-70{
+  min-height: 70vh;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.w-30{
+  width: 30%;
+}
+
+.d-flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.d-flex-start{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.d-flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-between{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-start{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.links-flex a{
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  padding: 12px;
+  text-align: center;
+  margin-right: 70px;
+}
+
+.global-outer{
+  padding: 24px 136px;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+section{
+  width: 100%;
+  position: relative;
+}
+
+.padded{
+ padding: 10rem 0; 
+}
